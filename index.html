@@ -3,102 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senior Creative Director | Portfolio 2026</title>
+    <title>Senior Creative Director Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
     <style>
-        body { background-color: #050505; color: #e5e5e5; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .glass-nav { background: rgba(5, 5, 5, 0.95); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
-        .section-tag { letter-spacing: 0.4em; text-transform: uppercase; font-weight: 700; font-size: 0.65rem; color: #6366f1; border-left: 2px solid #6366f1; padding-left: 10px; }
-        .ad-grid-card { position: relative; border-radius: 12px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); transition: all 0.4s ease; }
-        .ad-grid-card:hover { transform: translateY(-10px); border-color: #fbbf24; box-shadow: 0 20px 40px rgba(0,0,0,0.6); }
-        .category-title { font-family: 'Cinzel', serif; letter-spacing: 2px; }
+        body { background-color: #050505; color: #e5e5e5; font-family: 'Inter', sans-serif; }
+        .ad-card { border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; transition: 0.3s; width: 100%; height: auto; }
+        .ad-card:hover { transform: translateY(-5px); border-color: #6366f1; }
+        .section-tag { letter-spacing: 0.3em; text-transform: uppercase; font-size: 0.7rem; color: #6366f1; font-weight: 700; }
     </style>
 </head>
-<body>
+<body class="p-4 md:p-10">
 
-    <nav class="fixed w-full z-50 px-8 py-5 flex justify-between items-center glass-nav">
-        <span class="text-xl font-black tracking-tighter uppercase">Creative<span class="text-indigo-500">Head.</span></span>
-        <div class="hidden md:flex gap-8 text-[10px] uppercase tracking-[0.2em] font-bold">
-            <a href="#automotive" class="hover:text-indigo-400">Automotive</a>
-            <a href="#spiritual" class="hover:text-indigo-400">Spiritual Tech</a>
-            <a href="#narrative" class="hover:text-indigo-400">Conceptual</a>
-            <a href="#healthcare" class="hover:text-indigo-400">Healthcare</a>
-        </div>
-    </nav>
+    <header class="mb-20">
+        <h1 class="text-5xl md:text-8xl font-black tracking-tighter uppercase mb-4">Creative <span class="text-indigo-600">Director.</span></h1>
+        <p class="text-zinc-500 max-w-xl">10 Years of Industry Excellence in Visual Strategy and Art Direction.</p>
+    </header>
 
-    <section class="min-h-[80vh] flex flex-col justify-center px-8 md:px-20 pt-20">
-        <p class="section-tag mb-4">Art Direction & Visual Strategy</p>
-        <h1 class="text-6xl md:text-[100px] font-black tracking-tighter leading-none mb-6">
-            CRAFTING <br><span class="text-indigo-600">CONVERSIONS.</span>
-        </h1>
-        <p class="max-w-xl text-zinc-500 text-lg">10+ years of expertise in transforming complex brand requirements into high-performing static assets across diverse industries.</p>
-    </section>
-
-    <section id="automotive" class="py-20 px-8 md:px-20 bg-zinc-950">
-        <p class="section-tag mb-4">Vertical 01</p>
-        <h2 class="text-4xl category-title mb-10 text-white">Automotive & Lifestyle</h2>
+    <section class="mb-20">
+        <p class="section-tag mb-4">Sector 01: Automotive & Festive</p>
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            <img src="mg windsow ev.jpg" class="ad-grid-card" alt="MG Windsor">
-            <img src="EV offer.jpg" class="ad-grid-card" alt="MG EV Offer">
-            <img src="diwali mg.jpg" class="ad-grid-card" alt="Diwali MG">
-            <img src="New Year 2026 mg.jpg" class="ad-grid-card" alt="New Year MG">
-            <img src="dashera.jpg" class="ad-grid-card" alt="Dussehra MG">
-            <img src="christmas post.jpg" class="ad-grid-card" alt="Christmas MG">
-            <img src="gandhi jayanti.jpg" class="ad-grid-card" alt="Gandhi Jayanti MG">
+            <img src="New Year 2026 mg.jpg" class="ad-card" alt="New Year">
+            <img src="diwali mg.jpg" class="ad-card" alt="Diwali">
+            <img src="dashera.jpg" class="ad-card" alt="Dussehra">
+            <img src="christmas post.jpg" class="ad-card" alt="Christmas">
+            <img src="EV offer.jpg" class="ad-card" alt="EV Offer">
+            <img src="gandhi jayanti.jpg" class="ad-card" alt="Gandhi Jayanti">
+            <img src="dhan teras.jpg" class="ad-card" alt="Dhanteras">
+            <img src="bhalaghat mahaustav2.jpg" class="ad-card" alt="Event">
         </div>
     </section>
 
-    <section id="spiritual" class="py-20 px-8 md:px-20">
-        <p class="section-tag mb-4">Vertical 02</p>
-        <h2 class="text-4xl category-title mb-10 text-amber-500">Spiritual Tech & Healing</h2>
-        <p class="mb-8 text-zinc-400 max-w-2xl">Focusing on "Performance Marketing" using urgency and psychological triggers for inner healing and manifestation programs.</p>
+    <section class="mb-20 bg-zinc-950 p-6 rounded-3xl">
+        <p class="section-tag mb-4">Sector 02: Performance & Spiritual Ads</p>
         <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            <img src="72 hours.jpg" class="ad-grid-card border-red-900/30" alt="72 Hours">
-            <img src="72 hours ad.jpg" class="ad-grid-card" alt="72 Hours Ad">
-            <img src="72 hours ad 2.jpg" class="ad-grid-card" alt="72 Hours Ad 2">
-            <img src="IC-102_1_1.jpg" class="ad-grid-card" alt="Inner Child 1">
-            <img src="IC-107_1_1.jpg" class="ad-grid-card" alt="Inner Child 2">
-            <img src="IC-103_1_1.jpg" class="ad-grid-card" alt="Inner Child 3">
-            <img src="IC-90_1_1.jpg" class="ad-grid-card" alt="Inner Child 4">
-            <img src="MAW-29_1_1.jpg" class="ad-grid-card" alt="Manifestation">
-            <img src="manifestation webinar.jpg" class="ad-grid-card" alt="Webinar Hero">
-            <img src="MAW ad 02.jpg" class="ad-grid-card" alt="MAW 02">
-            <img src="MAW ad 03 1x1.jpg" class="ad-grid-card" alt="MAW 03">
+            <img src="72 hours.jpg" class="ad-card" alt="72h">
+            <img src="72 hours ad.jpg" class="ad-card" alt="72h Ad">
+            <img src="72 hours ad 2.jpg" class="ad-card" alt="72h Ad 2">
+            <img src="IC-102_1_1.jpg" class="ad-card" alt="IC 102">
+            <img src="IC-103_1_1.jpg" class="ad-card" alt="IC 103">
+            <img src="IC-107_1_1.jpg" class="ad-card" alt="IC 107">
+            <img src="IC-90_1_1.jpg" class="ad-card" alt="IC 90">
+            <img src="MAW-29_1_1.jpg" class="ad-card" alt="MAW 29">
+            <img src="MAW-30_1_1.jpg" class="ad-card" alt="MAW 30">
+            <img src="MAW-31_1_1.jpg" class="ad-card" alt="MAW 31">
+            <img src="MAW ad 02.jpg" class="ad-card" alt="MAW 02">
+            <img src="MAW ad 03 1x1.jpg" class="ad-card" alt="MAW 03">
         </div>
     </section>
 
-    <section id="narrative" class="py-20 px-8 md:px-20 bg-zinc-950">
-        <p class="section-tag mb-4">Vertical 03</p>
-        <h2 class="text-4xl category-title mb-10 text-indigo-400">Conceptual Strategy</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            <img src="Lal kitab ads.jpg" class="ad-grid-card" alt="Lal Kitab">
-            <img src="PPK 2 ad.jpg" class="ad-grid-card" alt="Prashna Kundali">
-            <img src="stuck career.jpg" class="ad-grid-card" alt="Stuck Career">
-            <img src="career growth.jpg" class="ad-grid-card" alt="Career Growth">
-            <img src="financial struggle.jpg" class="ad-grid-card" alt="Finance">
-            <img src="child future.jpg" class="ad-grid-card" alt="Child Future">
-            <img src="Astro Arun Pandit face reading ad.jpg" class="ad-grid-card" alt="Face Reading">
-            <img src="ad 5.jpg" class="ad-grid-card" alt="Astro Ad">
+    <section class="mb-20">
+        <p class="section-tag mb-4">Sector 03: Clinical Minimalism</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <img src="nilesh kidney.jpg" class="ad-card" alt="Kidney">
+            <img src="ashish cancer opd.jpg" class="ad-card" alt="Cancer">
+            <img src="baby care.jpg" class="ad-card" alt="Baby Care">
+            <img src="IBS.jpg" class="ad-card" alt="IBS">
+            <img src="piles treatment.jpg" class="ad-card" alt="Piles">
+            <img src="hepatitis.jpg" class="ad-card" alt="Hepatitis">
+            <img src="gallbladder.jpg" class="ad-card" alt="Gallbladder">
+            <img src="defficiency of vitamin D.jpg" class="ad-card" alt="Vitamin D">
+            <img src="akal daad.jpg" class="ad-card" alt="Dental">
+            <img src="pediatrician.jpg" class="ad-card" alt="Pediatrics">
         </div>
     </section>
 
-    <section id="healthcare" class="py-20 px-8 md:px-20 bg-white text-black rounded-t-[50px]">
-        <p class="section-tag mb-4" style="color:#2563eb; border-color:#2563eb">Vertical 04</p>
-        <h2 class="text-4xl category-title mb-10 uppercase font-black">Claris Healthcare</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <img src="nilesh kidney.jpg" class="ad-grid-card shadow-xl" alt="Kidney">
-            <img src="ashish cancer opd.jpg" class="ad-grid-card shadow-xl" alt="Oncology">
-            <img src="baby care.jpg" class="ad-grid-card shadow-xl" alt="Pediatrics">
-            <img src="IBS.jpg" class="ad-grid-card shadow-xl" alt="Gastro">
-            <img src="piles treatment.jpg" class="ad-grid-card shadow-xl" alt="Piles">
-            <img src="hepatitis.jpg" class="ad-grid-card shadow-xl" alt="Hepatitis">
+    <section class="mb-20">
+        <p class="section-tag mb-4">Sector 04: Conceptual Art & Strategy</p>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            <img src="Lal kitab ads.jpg" class="ad-card" alt="Lal Kitab">
+            <img src="PPK 2 ad.jpg" class="ad-card" alt="PPK">
+            <img src="ad03.jpg" class="ad-card" alt="Ad 03">
+            <img src="ad 5.jpg" class="ad-card" alt="Ad 5">
+            <img src="banner.jpg" class="ad-card" alt="Banner">
+            <img src="manifestation webinar.jpg" class="ad-card" alt="Webinar">
         </div>
     </section>
 
-    <footer class="py-20 px-8 text-center border-t border-zinc-900 bg-black">
-        <h2 class="text-3xl font-bold mb-6">Let's create something high-impact.</h2>
-        <a href="mailto:your-email@gmail.com" class="inline-block bg-indigo-600 px-10 py-4 rounded-full font-bold hover:bg-indigo-700 transition">Hire the Art Director</a>
+    <footer class="text-center py-20 border-t border-zinc-900">
+        <p class="text-zinc-500 mb-4 uppercase tracking-widest text-xs">Available for New Projects</p>
+        <h2 class="text-3xl font-bold mb-8">Work with the Expert.</h2>
+        <a href="mailto:your-email@gmail.com" class="bg-white text-black px-10 py-3 rounded-full font-bold hover:bg-indigo-600 hover:text-white transition">Hire Me</a>
     </footer>
 
 </body>
